@@ -5,6 +5,7 @@
  *
  * Return: 0 Always (success)
  */
+
 void print_alphabet(void)
 {
 char ch;
@@ -12,6 +13,6 @@ char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
-{
+}
 _putchar('\n');
 }

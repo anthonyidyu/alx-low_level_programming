@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #include "main.h"
 
 /**
@@ -31,4 +28,3 @@ int wildcmp(char *s1, char *s2)
 	}
 	return (0);
 }
->>>>>>> 65ad95da2f6f2d5ceb506523c922f1952d222bdb

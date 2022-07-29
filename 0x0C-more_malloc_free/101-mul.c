@@ -27,7 +27,7 @@ void _print(char *str, int l)
 }
 
 /**
- * mul - multiple a char with a string and places the answer into dest
+ * mul - multiplies a char with a string and places the answer into dest
  * @n: char to multiply
  * @num: string to multiply
  * @num_index: last non NULL index of num
@@ -36,7 +36,7 @@ void _print(char *str, int l)
  *
  * Return: pointer to dest, or NULL on failure
  */
-char *mul(char n, char num*, int num_index, char *dest, int dest_index)
+char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 {
 	int j, k, mul, mulrem, add, addrem;
 
@@ -45,7 +45,7 @@ char *mul(char n, char num*, int num_index, char *dest, int dest_index)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
 		mulrem = mul / 10;
-		add  = (dest[k] - '0') + (mul % 10) + addrem;
+		add = (dest[k] - '0') + (mul % 10) + addrem;
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
 	}
@@ -84,12 +84,12 @@ int check_for_digits(char **av)
 
 /**
  * init - initializes a string
- * @str: string to initialize
+ * @str: sting to initialize
  * @l: length of strinf
  *
  * Return: void
  */
-void init(char *str, int 1)
+void init(char *str, int l)
 {
 	int i;
 

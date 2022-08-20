@@ -1,8 +1,8 @@
-https://github.com/JohnIdyu/alx-low_level_programming/tree/master/0x14-bit_manipulation#alx--engineering
+https://github.com/anthonyidyu/alx-low_level_programming/tree/master/0x14-bit_manipulation#alx--engineering
 
 ** ALL THE TASKS HERE ARE JUST TO MAKE YOU GHOST **
 
-https://github.com/JohnIdyu/alx-low_level_programming/tree/master/0x14-bit_manipulation#0x14-c---bit-manipulation
+https://github.com/anthonyidyu/alx-low_level_programming/tree/master/0x14-bit_manipulation#0x14-c---bit-manipulation
 
 The project contains the following files as a structure
 
